@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment Redirect</title>
+    <script>
+        const rand = Math.random();
+        if (rand < 0.5) {
+            window.location.href = "https://docs.google.com/forms/d/1ys0qeTpfjzVM7h-ip6Q1ePDrFdrRcIXa8ISjc17HKb8/edit"; // Version 1
+        } else {
+            window.location.href = "https://docs.google.com/forms/d/1ZqzVYXE1SqlwnFzMErfKpMSFtgngByc80gu-oGDmpD0/edit"; // Version 2
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
